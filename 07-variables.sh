@@ -11,5 +11,5 @@ echo "Home directory of current user: $HOME"
 echo "Process ID of current script: $$"
 sleep 100 &
 echo "Process ID of last background command: $!"
-echo "All args passed to script: $"
+echo "All args passed to script: $*"
 
